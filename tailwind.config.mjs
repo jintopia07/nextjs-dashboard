@@ -8,8 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#1c1c22",
+        accent: {
+          DEFAULT: "#00e187",
+          hover: "#00e187"
+        },
       },
     },
   },
