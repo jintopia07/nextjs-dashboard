@@ -8,6 +8,7 @@ function SideNav() {
             <li><Link className='block my-3 p-3 rounded-lg' href="/admin">Dashboard</Link></li>
             <li><Link className='block my-3 p-3 rounded-lg' href="/admin/users">Users</Link></li>
             <li><Link className='block my-3 p-3 rounded-lg' href="/admin/posts">Posts</Link></li>
+            <li><Link className='block my-3 p-3 rounded-lg' href="/admin/create">Create</Link></li>
         </ul>
     </nav>
   )
